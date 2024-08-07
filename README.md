@@ -64,5 +64,3 @@ The app should now be running on `http://localhost:3000`.
   - Express
 
 Thank you for using the Security Quiz Web App! We hope you find it useful and educational.
-
-Copy this content into a file named README.md in your project directory and push it to your GitHub repository.
