@@ -1,0 +1,44 @@
+body {
+  background-color: #474787; /* Purple background */
+  font-family: 'Roboto', sans-serif; /* Updated font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #ffffff; /* Changed text color to white for better contrast */
+}
+
+.container {
+  width: 90%; /* Increased width for smaller screens */
+  max-width: 600px; /* Set a max width */
+  text-align: center;
+  background-color: #474787; /* Background color to complement the question box */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: white; /* Title color changed to white */
+}
+
+.next-btn, .try-again-btn {
+  display: block;
+  margin: 20px auto;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.next-btn:hover, .try-again-btn:hover {
+  background-color: #1c7ed6;
+}
